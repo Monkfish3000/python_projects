@@ -1,8 +1,6 @@
-class User:
-    def __init__(self):
+class Question:
 
-user_1 = User()
-user_1.id = "001"
-user_1.name = 'Michael'
+    def __init__(self, text, answer):
+        self.text = text
+        self.answer = answer
 
-print(user_1.name)
