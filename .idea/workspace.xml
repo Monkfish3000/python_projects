@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3786ac07-ed13-44c7-8318-f93024d7c79e" name="Changes" comment="turtle and pretty table into">
-      <change beforePath="$PROJECT_DIR$/quiz/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quiz/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/question_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/quiz_brain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
