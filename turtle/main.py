@@ -1,23 +1,25 @@
-"""
 from turtle import Turtle, Screen
 
-michael = Turtle()
-michael.shape("turtle")
-michael.color("brown3")
-michael.forward(100)
+monk = Turtle()
+monk.shape('turtle')
+monk.color('DarkSeaGreen')
 
-my_screen = Screen()
-print(my_screen.canvheight)
-my_screen.exitonclick()
-"""
+keep_drawin = True
+def draw_shape(num_sides):
+    angle = 360 / num_sides
+    for _ in range(num_sides):
+        monk.forward(100)
+        monk.right(angle)
+        num_sides + 1
 
-from prettytable import PrettyTable
-table = PrettyTable()
+for num_times in range(3, 8):
+    draw_shape(num_times)
 
-table.add_column("Pokemon name", ["Pikachu", "Squirtle", "Charmander"])
-table.add_column("Type", ["Electric", "Water", "Fire"])
 
-table.align = "l"
 
-print(table)
 
+
+
+
+screen = Screen()
+screen.exitonclick()
