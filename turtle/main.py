@@ -1,8 +1,11 @@
 from turtle import Turtle, Screen
+import random
 
 monk = Turtle()
 monk.shape('turtle')
 monk.color('DarkSeaGreen')
+
+colours = ["red", "green", "blue", "orange", "purple", "wheat", "DarkOrchid", "CornflowerBlue"]
 
 keep_drawin = True
 def draw_shape(num_sides):
@@ -12,7 +15,8 @@ def draw_shape(num_sides):
         monk.right(angle)
         num_sides + 1
 
-for num_times in range(3, 8):
+for num_times in range(3, 27):
+    monk.color(random.choice(colours))
     draw_shape(num_times)
 
 
