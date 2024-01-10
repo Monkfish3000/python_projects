@@ -6,21 +6,14 @@ monk.shape('turtle')
 monk.color('DarkSeaGreen')
 
 colours = ["red", "green", "blue", "orange", "purple", "wheat", "DarkOrchid", "CornflowerBlue"]
+directions = [0, 90, 180, 270]
+monk.pensize(15)
+monk.speed('fastest')
 
-keep_drawin = True
-def draw_shape(num_sides):
-    angle = 360 / num_sides
-    for _ in range(num_sides):
-        monk.forward(100)
-        monk.right(angle)
-        num_sides + 1
-
-for num_times in range(3, 27):
+for _ in range(200):
     monk.color(random.choice(colours))
-    draw_shape(num_times)
-
-
-
+    monk.forward(30)
+    monk.setheading(random.choice(directions))
 
 
 
