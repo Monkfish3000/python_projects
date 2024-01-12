@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3786ac07-ed13-44c7-8318-f93024d7c79e" name="Changes" comment="turtle and pretty table into">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games/etch/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/etch/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
