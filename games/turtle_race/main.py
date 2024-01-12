@@ -27,6 +27,13 @@ if bet:
 while is_race_on:
 
     for turtle in all_turtles:
+        if turtle.xcor() > 230:
+            print(f'And the winner is the {turtle.pencolor()} turtle')
+            is_race_on = False
+            if turtle.pencolor() == bet:
+                print('You Win!')
+            else:
+                print("You lose!")
         dist = random.randint(0,10)
         turtle.forward(dist)
 
