@@ -27,7 +27,7 @@ monk.forward(250)
 monk.setheading(0)
 
 
-num_of_dots = 500
+num_of_dots = 100
 
 for dot_count in range(1, num_of_dots  + 1):
     monk.dot(20, random.choice(color_list))
